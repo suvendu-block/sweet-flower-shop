@@ -2,7 +2,7 @@
 
 
 
-1.used only SEO
+1. used only SEO
 2. section not everytime div
 3. if you write the code then comment everytime that you write 
 
