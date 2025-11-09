@@ -20,20 +20,59 @@ main .section3 .heading h2 {
   font-size: 1.5rem;
   padding-left: 1rem;
 }
-main .section3 .stories .story {
+main .section3 .stories {
   margin-top: 2.2rem;
+  padding-left: 1rem;
 }
 main .section3 .stories .story h6 {
-  padding-left: 1rem;
-  color: rgb(49, 49, 49);
+  color: rgb(62, 62, 62);
+}
+main .section3 .stories .images {
+  padding-top: 2.2rem;
+  padding-right: 1rem;
+}
+main .section3 .stories .images img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 20.5rem;
+  height: 20rem;
+  border-radius: 1rem;
+}
+main .section3 .stories .name {
+  padding-top: 1rem;
+}
+main .section3 .stories .name h6 {
+  color: rgb(66, 66, 66);
+}
+main .section3 .found {
+  margin-top: 2.2rem;
+  padding-left: 7rem;
 }
 
 @media (min-width: 768px) {
   main .section3 .heading h2 {
     font-size: 2rem;
-    padding-left: 1.2rem;
+    padding-left: 1.5rem;
   }
-  main .section3 .stories .story h6 {
-    padding-left: 1.2rem;
+  main .section3 .stories {
+    display: flex;
+    align-items: start;
+    padding-left: 1.5rem;
+  }
+  main .section3 .stories .story {
+    padding-top: 1.2rem;
+  }
+  main .section3 .stories .images {
+    padding-left: 2.5rem;
+    padding-top: 1.2rem;
+  }
+  main .section3 .stories .images img {
+    width: 35rem;
+    height: 28rem;
+  }
+  main .section3 .stories .name {
+    padding-left: 1rem;
+    padding-top: 1.2rem;
   }
 }/*# sourceMappingURL=style.css.map */

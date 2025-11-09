@@ -24,13 +24,35 @@ main{
         }
 
         .stories{
+            margin-top: 2.2rem;
+            padding-left: 1rem;
             .story{
-                margin-top: 2.2rem;
                 h6{
-                    padding-left: 1rem;
-                    color: rgb(49, 49, 49);
+                    color: rgb(62, 62, 62);
                 }
             }
+            .images{
+                padding-top: 2.2rem;
+                padding-right: 1rem;
+                img{
+                    width: 100%;
+                    object-fit: cover;
+                    width: 20.5rem;
+                    height: 20rem;
+                    border-radius: 1rem;
+                }
+            }
+            .name{
+                padding-top: 1rem;
+                h6{
+                    color: rgb(66, 66, 66);
+                }
+            }
+        }
+
+        .found{
+            margin-top: 2.2rem;
+            padding-left: 7rem;
         }
     }
         
@@ -42,15 +64,28 @@ main{
         .heading{
             h2{
                 font-size: 2rem;
-                padding-left: 1.2rem;
+                padding-left: 1.5rem;
             }
         }
 
         .stories{
+            display: flex;
+            align-items: start;
+            padding-left: 1.5rem;
             .story{
-                h6{
-                    padding-left: 1.2rem;
+                padding-top: 1.2rem;
+            }
+            .images{
+                padding-left: 2.5rem;
+                padding-top: 1.2rem;
+                img{
+                    width: 35rem;
+                    height: 28rem;
                 }
+            }
+            .name{
+                padding-left: 1rem;
+                padding-top: 1.2rem;
             }
         }
       }
