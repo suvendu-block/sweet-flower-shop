@@ -51,12 +51,53 @@ main{
         }
 
         .found{
-            margin-top: 2.2rem;
-            padding-left: 7rem;
+            margin-top: 1rem;
+            padding-left: 1rem;
+
+            h1{
+                font-size: 1.5rem;
+                font-weight: 700;
+            }
         }
+
+        .flowers{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 2rem;
+            padding-left: 1rem;
+            .flower1{
+                img{
+                    width: 100%;
+                    object-fit: cover;
+                    width: 20.5rem;
+                    height: 20rem;
+                    border-radius: 1rem;
+                }
+            }
+
+            .flower2{
+                img{
+                    width: 100%;
+                    object-fit: cover;
+                    width: 20.5rem;
+                    height: 20rem;
+                    border-radius: 1rem;
+                }
+            }
+
+            .flower3{
+                img{
+                    width: 100%;
+                    object-fit: cover;
+                    width: 20.5rem;
+                    height: 20rem;
+                    border-radius: 1rem;
+                }
+            } 
+        }          
     }
-        
-}
+}    
 
 @media (min-width: 768px){
     main{
@@ -87,6 +128,15 @@ main{
                 padding-left: 1rem;
                 padding-top: 1.2rem;
             }
+        }
+
+        .found{
+            margin-top: 2.2rem;
+            padding-left: 7rem;
+        }
+
+        .flowers{
+            padding-left: 7rem;
         }
       }
     }
