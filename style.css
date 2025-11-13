@@ -84,6 +84,14 @@ main .section3 .flowers .flower3 img {
   height: 20rem;
   border-radius: 1rem;
 }
+main .section3 .journey {
+  margin-top: 2.7rem;
+  padding-left: 1rem;
+  padding-right: 0.8rem;
+}
+main .section3 .journey p:nth-child(2) {
+  padding-top: 1.2rem;
+}
 
 @media (min-width: 768px) {
   main .section3 .heading h2 {
@@ -116,5 +124,9 @@ main .section3 .flowers .flower3 img {
   }
   main .section3 .flowers {
     padding-left: 7rem;
+  }
+  main .section3 .journey {
+    padding-left: 7rem;
+    padding-right: 50rem;
   }
 }/*# sourceMappingURL=style.css.map */
