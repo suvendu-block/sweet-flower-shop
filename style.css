@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/StackSansNotch-Regular.ttf");
+}
 * {
   margin: 0;
   padding: 0;
@@ -15,6 +19,7 @@ main {
 }
 main .section3 .heading {
   margin-top: 1rem;
+  font-family: "Poppins";
 }
 main .section3 .heading h2 {
   font-size: 1.5rem;
@@ -23,6 +28,7 @@ main .section3 .heading h2 {
 main .section3 .stories {
   margin-top: 2.2rem;
   padding-left: 1rem;
+  font-family: "Poppins";
 }
 main .section3 .stories .story h6 {
   color: rgb(62, 62, 62);
@@ -40,7 +46,12 @@ main .section3 .stories .images img {
   border-radius: 1rem;
 }
 main .section3 .stories .name {
+  font-family: "Poppins";
   padding-top: 1rem;
+}
+main .section3 .stories .name h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 main .section3 .stories .name h6 {
   color: rgb(66, 66, 66);
@@ -48,6 +59,7 @@ main .section3 .stories .name h6 {
 main .section3 .found {
   margin-top: 1rem;
   padding-left: 1rem;
+  font-family: "Poppins";
 }
 main .section3 .found h1 {
   font-size: 1.5rem;
@@ -88,6 +100,7 @@ main .section3 .journey {
   margin-top: 2.7rem;
   padding-left: 1rem;
   padding-right: 0.8rem;
+  font-family: "Poppins";
 }
 main .section3 .journey p:nth-child(2) {
   padding-top: 1.2rem;
