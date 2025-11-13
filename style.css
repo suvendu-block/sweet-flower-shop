@@ -92,7 +92,6 @@ main .section3 .journey {
 main .section3 .journey p:nth-child(2) {
   padding-top: 1.2rem;
 }
-
 @media (min-width: 768px) {
   main .section3 .heading h2 {
     font-size: 2rem;
