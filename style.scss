@@ -123,7 +123,20 @@ main{
         }
 
         .consultation{
+            margin-top: 2.7rem;
+            padding-left: 1rem;
+            padding-right: 0.8rem;
+            font-family: 'Poppins';
 
+            img{
+                width: 100%;
+                object-fit: cover;
+                width: 20.5rem;
+                height: 20rem;
+                border-radius: 1rem;
+            }
+
+            
         }
     }          
 }    
