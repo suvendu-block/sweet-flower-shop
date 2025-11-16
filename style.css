@@ -119,6 +119,22 @@ main .section3 .consultation img {
   height: 20rem;
   border-radius: 1rem;
 }
+main .section3 .consultation p:nth-child(2) {
+  margin-top: 2rem;
+}
+main .section3 .consultation button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: rgb(255, 234, 0);
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+}
+main .section3 .consultation button i {
+  font-size: 1rem;
+}
 
 @media (min-width: 768px) {
   main .section3 .heading h2 {

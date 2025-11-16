@@ -136,7 +136,24 @@ main{
                 border-radius: 1rem;
             }
 
-            
+            p:nth-child(2){
+                margin-top: 2rem;
+            }
+
+            button{
+                margin-top: 1rem;
+                padding: 0.5rem 1rem;
+                border: none;
+                border-radius: 0.5rem;
+                background-color: rgb(255, 234, 0);
+                color: black;
+                font-weight: 600;
+                cursor: pointer;
+
+                i{
+                    font-size: 1rem;
+                }
+            }
         }
     }          
 }    
