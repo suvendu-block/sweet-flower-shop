@@ -68,7 +68,7 @@ main .section3 .found h1 {
 main .section3 .flowers {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 4rem;
   margin-top: 2rem;
   padding-left: 1rem;
 }
@@ -171,5 +171,16 @@ main .section3 .consultation button i {
   main .section3 .journey {
     padding-left: 7rem;
     padding-right: 50rem;
+  }
+  main .section3 .consultation {
+    padding-left: 7rem;
+    padding-right: 50rem;
+  }
+  main .section3 .consultation img {
+    width: 70rem;
+    height: 28rem;
+  }
+  main .section3 .consultation p:nth-child(2) {
+    margin-top: 2rem;
   }
 }/*# sourceMappingURL=style.css.map */

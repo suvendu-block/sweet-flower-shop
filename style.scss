@@ -77,7 +77,7 @@ main{
         .flowers{
             display: flex;
             flex-wrap: wrap;
-            gap: 1rem;
+            gap: 4rem;
             margin-top: 2rem;
             padding-left: 1rem;
             .flower1{
@@ -201,6 +201,20 @@ main{
         .journey{
             padding-left: 7rem;
             padding-right: 50rem;
+        }
+
+        .consultation{
+            padding-left: 7rem;
+            padding-right: 50rem;
+
+            img{
+                width: 70rem;
+                height: 28rem;
+            }
+
+            p:nth-child(2){
+                margin-top: 2rem;
+            }
         }
       }
     }
