@@ -2,6 +2,20 @@
   font-family: "Poppins";
   src: url("./fonts/StackSansNotch-Regular.ttf");
 }
+:root {
+  --bgColor:white;
+  --black:#000000;
+  --grey:#A7A7A7;
+  --lightgrey:#D7D7D7;
+  --oilvgreen:#496D4A;
+  --blue:#0248AA;
+  --violet:#772E9B;
+  --orange:#D3712C;
+  --yellow:#FFC800;
+  --white:#FFFFFF;
+  --h1: 3rem;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -11,18 +25,18 @@
 html, body {
   height: 100%;
   width: 100%;
-  background-color: white;
+  background-color: var(--bgColor);
 }
 
 main {
   width: 100%;
 }
 main .section3 .heading {
-  margin-top: 1rem;
+  margin-top: var(--h1);
   font-family: "Poppins";
 }
-main .section3 .heading h2 {
-  font-size: 1.5rem;
+main .section3 .heading h1 {
+  font-size: 3rem;
   padding-left: 1rem;
 }
 main .section3 .stories {
@@ -30,8 +44,8 @@ main .section3 .stories {
   padding-left: 1rem;
   font-family: "Poppins";
 }
-main .section3 .stories .story h6 {
-  color: rgb(62, 62, 62);
+main .section3 .stories .story h2 {
+  color: var(--grey);
 }
 main .section3 .stories .images {
   padding-top: 2.2rem;
@@ -54,7 +68,7 @@ main .section3 .stories .name h5 {
   font-weight: 600;
 }
 main .section3 .stories .name h6 {
-  color: rgb(66, 66, 66);
+  color: var(--grey);
 }
 main .section3 .found {
   margin-top: 1rem;
@@ -127,8 +141,8 @@ main .section3 .consultation button {
   padding: 0.5rem 1rem;
   border: none;
   border-radius: 0.5rem;
-  background-color: rgb(255, 234, 0);
-  color: black;
+  background-color: var(--yellow);
+  color: var(--black);
   font-weight: 600;
   cursor: pointer;
 }
